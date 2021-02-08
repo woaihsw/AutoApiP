@@ -8,7 +8,7 @@ if app_num == '':
     app_num = '1'
 access_token_list=['wangziyingwen']*int(app_num)
 #配置选项，自由选择
-config_list = {'每次轮数':3,
+config_list = {'每次轮数':5,
             '是否启动随机时间':'N','延时范围起始':600,'结束':1200,
             '是否开启随机api顺序':'Y',
             '是否开启各api延时':'N','api延时范围开始':2,'api延时结束':5,
